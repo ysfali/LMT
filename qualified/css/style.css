@@ -1,0 +1,117 @@
+    .toRight
+      {
+        position: absolute;
+        right: 90px;
+        top: 40px;
+      }
+      .xlsx:before 
+      {
+        display: none;
+      }
+      #addDialog, #addDialog > div
+      {
+        overflow: hidden !important;
+      }
+
+      .fab {
+        font-family: RobotoDraft, 'Helvetica Neue', Helvetica, Arial;
+        position: fixed;
+        right: 0;
+        bottom: 0;
+        border:none;
+        font-size:3.5em;
+        color:white;
+        background-color: #da3116;;
+        border-radius: 50%;
+        width: 80px;
+        height: 80px;
+        margin: auto;
+        -webkit-box-shadow: inset 12px 12px 12px 0px rgba(41, 41, 41, .3);
+        -moz-box-shadow: inset 12px 12px 12px 0px rgba(41, 41, 41, .3);
+        box-shadow: inset 12px 12px 12px 0px rgba(41, 41, 41, .3);
+        outline: none;
+      }
+
+      .fab:hover {
+        background-color:#ec5840;
+      }
+      .fab:active,.fab:focus
+      {
+        outline: none;
+      }
+      .small.success.button
+      {
+        padding-right: 30px;
+      }
+      .defaultColor
+      {
+        background-color: #F5D062 !important;
+        border-bottom: 1px solid #eee;
+      }
+
+      .approvedColor
+      {
+        /*     background-color: #B4EFB4 !important; */
+        background-color: #5AB953 !important;
+        border-bottom: 1px solid #eee;
+      }
+      .disapprovedColor
+      {
+        /*     background-color: #FF5858 !important; */
+        background-color: #E57260 !important;
+        border-bottom: 1px solid #eee;
+      }
+      .approvedAndConverted
+      {
+        background-color: #559E50 !important;
+         border-bottom: 1px solid #eee;
+      }
+      thead tr > th
+      {
+        /*       text-align: center; */
+      }
+      table tbody td
+      {
+        padding: 0px;
+      }
+      .button
+      {
+        border-top-left-radius: 6px;
+        border-bottom-right-radius: 6px;
+      }
+  .small.success.button
+  {
+    padding-right: 30px;
+  }
+  .defaultColor
+  {
+    background-color: #F5D062 !important;
+    border-bottom: 1px solid #eee;
+  }
+
+  .approvedColor
+  {
+/*     background-color: #B4EFB4 !important; */
+    background-color: #5AB953 !important;
+    border-bottom: 1px solid #eee;
+  }
+  .disapprovedColor
+  {
+/*     background-color: #FF5858 !important; */
+    background-color: #E57260 !important;
+    border-bottom: 1px solid #eee;
+  }
+  thead tr > th
+  {
+    /*       text-align: center; */
+  }
+.button.info {
+    background-color: #a0d3e8;
+    border-color: #61b6d9;
+    color: #333333;
+}
+/* .hide
+{
+  display: none;
+  visibility: hidden;
+} */
